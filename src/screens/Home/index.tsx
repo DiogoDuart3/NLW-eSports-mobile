@@ -39,9 +39,10 @@ export function Home() {
                             onPress={() => handleOpenGame(item)}
                         />
                     )}
-                    showsHorizontalScrollIndicator={false}
                     horizontal
+                    style={styles.containerList}
                     contentContainerStyle={styles.contentList}
+                    showsHorizontalScrollIndicator={false}
                 />
             </SafeAreaView>
         </Background>
